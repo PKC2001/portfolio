@@ -18,19 +18,19 @@ const skills = () => {
         <div className="skillBar">
           <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>UI/UX design</h2> <p>Demo Text</p>
+            <h2>Technical Skills</h2> <p>HTML | CSS | Javascript | React Js | Tailwind CSS | Git & Github | GA & GTM | Python | SQL</p>
           </div>
         </div>
         <div className="skillBar">
           <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Website Design</h2> <p>Demo Text</p>
+            <h2>Soft Skills</h2> <p>Communication | Teamwork | Leadership | Problem-solving | Adaptability | Time management | Networking | Conflict resolution</p>
           </div>
         </div>
         <div className="skillBar">
           <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>App Design</h2> <p>Demo Text</p>
+            <h2>Languages</h2> <p>HINDI | ENGLISN | MARATHI</p>
           </div>
         </div>
       </div>
