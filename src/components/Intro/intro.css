@@ -50,7 +50,13 @@
     border: none;
     border-radius: 2rem;
     cursor: pointer;
+    transition: transform .2s;
 
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background: yellow;
 }
 
 .btnImg{

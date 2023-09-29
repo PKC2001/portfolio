@@ -50,10 +50,12 @@
   border-radius: 0.5rem;
   margin: 2rem;
   cursor: pointer;
+  transition: transform .2s;
 }
 
 .submitBtn:hover{
   background: yellow;
+  transform: scale(1.1);
 }
 
 .links {
@@ -67,4 +69,9 @@
   width: 3rem;
   margin: 0 0.75rem;
   cursor: pointer;
+  transition: transform .2s;
+}
+
+.link:hover{
+  transform: scale(1.2);
 }

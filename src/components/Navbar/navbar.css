@@ -40,10 +40,12 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: transform .2s;
 }
 
 .desktopMenuBtn:hover{
     background: yellow;
+    transform: scale(1.1);
 }
 
 .desktopMenuImg{

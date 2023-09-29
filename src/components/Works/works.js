@@ -29,19 +29,18 @@ const works = () => {
       <div className="achi">
         <h1 className="worksTitle">My Achievements</h1>
         <p className="worksDesc">
-          <span>
+          <a href="https://ieeexplore.ieee.org/document/9792911" className="achiDesc">
             1. Image Classification Using Deep Learning Algorithms for Cotton
             Crop Disease Detection IEEE The Paper was presented at ICDCECE
             conference and published at IEEE Explore digital library.
-            <Link>https://ieeexplore.ieee.org/document/9792911</Link>
-          </span>
+
+          </a>
           <div className='line'></div>
-          <span>
+          <a href="https://drive.google.com/file/d/1aukOFKilOnEGcCbFWOul5VW9AwiSM5aM/view" className="achiDesc">
             2. Image Classification Using Deep Learning Algorithms for Covid-19
             Detection. Copyright Grant Copyright Grant on the Project.
             Registration Number[ L107015/2021 ].
-            <Link>https://drive.google.com/file/d/1aukOFKilOnEGcCbFWOul5VW9AwiSM5aM/view</Link>
-          </span>
+          </a>
         </p>
       </div>
     </section>

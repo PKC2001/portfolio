@@ -40,6 +40,11 @@
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
+    transition: transform .2s;
+}
+
+.worksImg:hover{
+    transform: scale(1.04);
 }
 
 .worksBtn{
@@ -69,4 +74,19 @@
     align-items: center;
     margin-top: 15px;
     padding-top: 15px;
+}
+
+.project:hover{
+    color:yellow
+}
+
+.achiDesc{
+    letter-spacing: 1px;
+    color: white;
+    font-size: bold;
+    padding: 10px 1px;
+}
+
+.achiDesc:hover{
+    color: yellow;
 }
