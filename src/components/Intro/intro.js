@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-// import image from "../../assets/image.png";
+import image from "../../assets/image.png";
 import btnImg from "../../assets/hireme.png";
 import { Link } from "react-scroll";
 
@@ -24,7 +24,7 @@ const intro = () => {
           </button>
         </Link>
       </div>
-      {/* <img src={image} className="bg" alt="profile" /> */}
+      <img src={image} className="bg" alt="profile" />
     </section>
   );
 };
