@@ -42,6 +42,10 @@
     cursor: pointer;
 }
 
+.desktopMenuBtn:hover{
+    background: yellow;
+}
+
 .desktopMenuImg{
     object-fit: cover;
     height: 1rem;

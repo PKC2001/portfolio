@@ -52,6 +52,10 @@
   cursor: pointer;
 }
 
+.submitBtn:hover{
+  background: yellow;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;

@@ -19,12 +19,12 @@ const works = () => {
         online presence
       </span>
       <div className="worksImgs">
-        <a target="_blank" href="https://airbnb-clone-three-lake.vercel.app/" rel="noreferrer"><img src={Portfolio1} alt="" className="worksImg" /></a>
-        <a target="_blank" href="https://pkc2001.github.io/food-delivery-website/" rel="noreferrer"><img src={Portfolio2} alt="" className="worksImg" /></a>
-        <a target="_blank" href="https://amazon-clone-bice-three.vercel.app/" rel="noreferrer"><img src={Portfolio3} alt="" className="worksImg" /></a>
-        <a target="_blank" href="https://pkc2001.github.io/to-do-app/" rel="noreferrer"><img src={Portfolio4} alt="" className="worksImg" /></a>
-        <a target="_blank" href="https://pkc2001.github.io/youtube-clone/" rel="noreferrer"><img src={Portfolio5} alt="" className="worksImg" /></a>
-        <a target="_blank" href="https://pkc2001.github.io/portfolio-website-v2/" rel="noreferrer"><img src={Portfolio6} alt="" className="worksImg" /></a>
+        <h4 className="project">Amazon Clone<a target="_blank" href="https://amazon-clone-bice-three.vercel.app/" rel="noreferrer"><img src={Portfolio3} alt="" className="worksImg" /></a></h4>
+        <h4 className="project">To Do App<a target="_blank" href="https://pkc2001.github.io/to-do-app/" rel="noreferrer"><img src={Portfolio4} alt="" className="worksImg" /></a></h4>
+        <h4 className="project">Youtube Clone<a target="_blank" href="https://pkc2001.github.io/youtube-clone/" rel="noreferrer"><img src={Portfolio5} alt="" className="worksImg" /></a></h4>
+        <h4 className="project">Food Deliver Website<a target="_blank" href="https://pkc2001.github.io/food-delivery-website/" rel="noreferrer"><img src={Portfolio2} alt="" className="worksImg" /></a></h4>
+        <h4 className="project">Portfolio Website v2<a target="_blank" href="https://pkc2001.github.io/portfolio-website-v2/" rel="noreferrer"><img src={Portfolio6} alt="" className="worksImg" /></a></h4>
+        <h4 className="project">Airbnb Clone<a target="_blank" href="https://airbnb-clone-three-lake.vercel.app/" rel="noreferrer"><img src={Portfolio1} alt="" className="worksImg" /></a></h4>
       </div>
       <div className="achi">
         <h1 className="worksTitle">My Achievements</h1>
